@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="entrega2.jorge"
+             Title="El Fenómeno Ronaldo">
+    <ScrollView>
+        <VerticalStackLayout Padding="20">
+            <!-- Imagen de Ronaldo -->
+            <Image Source="Ronaldo-Nazario.jpg" HeightRequest="200" HorizontalOptions="Center"/>
+
+            <!-- Título -->
+            <Label Text="El Fenómeno Ronaldo"
+                   FontSize="24"
+                   FontAttributes="Bold"
+                   HorizontalOptions="Center"
+                   Margin="10"/>
+
+            <!-- Descripción -->
+            <Label Text="Ronaldo Luís Nazário de Lima, conocido como Ronaldo, es uno de los más grandes jugadores de fútbol de todos los tiempos. Nació el 22 de septiembre de 1976 en Río de Janeiro, Brasil, y se destacó en varios clubes europeos y la selección brasileña."
+                   FontSize="16"
+                   TextColor="Black"
+                   Margin="0,10,0,10"/>
+
+            <!-- Texto adicional -->
+            <Label Text="Su velocidad, potencia y capacidad para anotar goles lo convirtieron en una sensación mundial en los años 90 y principios de los 2000. Ronaldo ganó el Balón de Oro en dos ocasiones (1997 y 2002), y fue pieza clave en la victoria de Brasil en la Copa del Mundo de 2002."
+                   FontSize="16"
+                   TextColor="Black"
+                   Margin="0,10,0,10"/>
+
+            <!-- Más detalles -->
+            <Label Text="También jugó para clubes como el FC Barcelona, Inter de Milán, Real Madrid y AC Milan, dejando huella en cada uno de ellos. Su apodo 'El Fenómeno' refleja su impacto en el fútbol y su legado como uno de los mejores delanteros de la historia."
+                   FontSize="16"
+                   TextColor="Black"
+                   Margin="0,10,0,10"/>
+
+            <!-- Botón interactivo para ver videos o más info -->
+            <Button Text="Ver más sobre Ronaldo" 
+                    BackgroundColor="#007AFF"
+                    TextColor="White"
+                    Clicked="OnVerMasClicked"/>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
